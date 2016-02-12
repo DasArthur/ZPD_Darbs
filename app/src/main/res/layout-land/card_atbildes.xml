@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:gravity="center"
+   >
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/atbilde"
+        android:layout_weight="1"
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+android:layout_gravity="center|top"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:id="@+id/krasa"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@color/colorPrimaryDark"
+
+                />
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textSize="23sp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-light"
+                android:text="PAREIZĀ ATBILDE"
+                />
+
+            <TextView
+                android:id="@+id/jautajumstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="18sp"
+                android:textColor="#757575"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/a1p0"
+                />
+
+            <Button
+                android:id="@+id/istaatbilde"
+                android:layout_width="250dp"
+                android:layout_height="65dp"
+                android:text="Dalīšanas likums"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-light"
+
+
+                
+                android:layout_margin="8dp"
+
+
+                android:layout_gravity="right|bottom"
+
+                android:backgroundTint="@color/colorButton"
+                android:textColor="#fff"
+                android:colorButtonNormal="@color/colorButton"
+                android:layout_below="@id/jautajumstext"
+
+
+                android:layout_alignParentEnd="true"
+android:layout_alignParentRight="true"
+android:background="@color/colorButton"
+                />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

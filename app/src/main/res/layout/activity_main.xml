@@ -1,0 +1,79 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:fitsSystemWindows="true"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- The ActionBar -->
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- The main content view -->
+        <FrameLayout
+            android:id="@+id/flContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/parbaudesdarbspoga"
+
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+
+                android:text="Pārbaudes darbs"
+                android:textSize="30sp"
+                android:layout_marginBottom="70dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:backgroundTint="@color/colorButton"
+                android:onClick="ParbaudesDarbsPressed"
+                />
+
+            <!--
+               BUTTON AR TINT
+               -->
+
+            <Button
+                android:id="@+id/testspoga"
+
+                android:text="TĒMU IZVĒLNE"
+                android:textSize="30sp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+
+
+                android:layout_gravity="center"
+
+                android:backgroundTint="@color/colorButton"
+                android:textColor="#fff"
+                android:colorButtonNormal="@color/colorButton"
+                android:onClick="TestsPressed"
+                />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nvView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        app:menu="@menu/drawer"
+        app:headerLayout="@layout/nav_header"
+
+        />
+</android.support.v4.widget.DrawerLayout>

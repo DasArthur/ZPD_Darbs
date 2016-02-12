@@ -1,0 +1,53 @@
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+
+        android:id="@+id/atbildes"
+
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="10dp"
+        android:clickable="true"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"/>
+
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/imageView"
+                android:background="@color/colorPrimary"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="PAREIZĀ ATBILDE"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>

@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/pirma"
+        android:checkableBehavior="single">
+
+
+     <item
+         android:id="@+id/izvelne"
+         android:icon="@drawable/ic_home"
+         android:title="Izvēlne" />
+
+
+
+
+    </group>
+
+<!--    <item android:title="Tēmas"
+        android:id="@+id/temas">
+        <menu>
+            <item
+                android:id="@+id/tema_1"
+                android:title="@string/tema_1" />
+            <item
+                android:id="@+id/tema_2"
+                android:title="@string/tema_2" />
+            <item
+                android:id="@+id/tema_3"
+                android:title="@string/tema_3" />
+
+        </menu>
+
+    </item>-->
+
+    <group
+        android:id="@+id/otra"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/iestatijumi"
+
+            android:title="@string/iestatijumi" />
+
+        <item
+            android:id="@+id/exit"
+
+            android:title="@string/exit" />
+    </group>
+
+</menu>

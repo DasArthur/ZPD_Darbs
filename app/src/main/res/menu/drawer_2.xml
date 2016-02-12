@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/pirma"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/izvelne"
+            android:icon="@drawable/ic_home"
+            android:title="Izvēlne" />
+
+        <!--<item
+            android:id="@+id/retry"
+
+            android:title="Atkārtot" />
+-->
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/exit" />
+
+
+    </group>
+
+
+
+</menu>

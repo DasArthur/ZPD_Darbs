@@ -1,0 +1,127 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- The ActionBar -->
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- The main content view -->
+        <FrameLayout
+            android:id="@+id/flContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+
+
+
+            <Button
+                android:id="@+id/pirmapoga"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="@string/tema_1"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:backgroundTint="@color/colorButton"
+                android:onClick="pirmapogaPressed"
+                />
+
+            <!--
+               BUTTON AR TINT
+               -->
+
+            <Button
+                android:id="@+id/otrapoga"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="@string/tema_2"
+                android:textSize="25sp"
+                android:layout_marginTop="85dp"
+                android:layout_gravity="center"
+
+                android:backgroundTint="@color/colorButton"
+                android:textColor="#fff"
+                android:colorButtonNormal="@color/colorButton"
+android:onClick="otrapogaPressed"
+                />
+
+            <Button
+               android:id="@+id/tresapoga"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="160dp"
+                android:text="Dalīšanas likums"
+                android:textSize="25sp"
+
+
+                android:layout_gravity="center"
+
+                android:backgroundTint="@color/colorButton"
+                android:textColor="#fff"
+                android:colorButtonNormal="@color/colorButton"
+android:onClick="tresapogaPressed"
+                />
+
+            <TextView
+                android:id="@+id/TextFieldJautajums"
+                android:text="Kāds likums ir jaizmanto lai izvēlētos vienu elementu no divām grupām?"
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-light"
+
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:gravity="center"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_fab"
+                android:layout_gravity="right|bottom"
+                android:onClick="fabPressed"
+                />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nvView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        app:menu="@menu/drawer_2"
+        app:headerLayout="@layout/nav_header"
+
+        />
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
