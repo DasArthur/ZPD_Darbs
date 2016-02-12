@@ -1,0 +1,2 @@
+# ZPDDarbs
+Lietotne prieks ZPD
