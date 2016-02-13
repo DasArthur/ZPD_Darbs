@@ -328,8 +328,10 @@ finish();
         pareizasatbildes = ("PAREIZĀS ATBILDES "+pareizasAtbildes);
         nepareizasatbildes = ("NEPAREIZĀS ATBILDES "+nepareizasAtbildes);
 
-        if(String.valueOf(pareizasAtbildes).contains("0") ){
+        if(String.valueOf(pareizasAtbildes).equals("0") ){
             procenti = ("0" + "%");
+
+
         }else {
 
             Double procents = (Double.valueOf(pareizasAtbildes) / size) * 100;
