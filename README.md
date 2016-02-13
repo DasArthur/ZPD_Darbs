@@ -1,2 +1,2 @@
 # ZPDDarbs
-Lietotne prieks ZPD
+Lietotne prieks ZPD darba 
