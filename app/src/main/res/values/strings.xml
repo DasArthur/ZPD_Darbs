@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ZPDDarbs</string>
+    <string name="app_name">ZPD</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Atsauces</string>
@@ -10,7 +10,7 @@
     <string name="tema_5">Izlases</string>
     <string name="tema_6">Permutācijas</string>
     <string name="tema_7">Kombinācijas</string>
-    <string name="title_activity_izvelne">izvēlne</string>
+    <string name="title_activity_izvelne">Izvēlne</string>
     <string name="iestatijumi">Atsauces</string>
     <string name="title_activity_dummy">DummyActivity</string>
     <string name="exit">Iziet</string>
@@ -41,12 +41,12 @@
     <string name="a2p6">0</string>
 
     <!--TRESAIS JAUTAJUMS -->
-    <string name="a3p0">Grozā ir 8 āboli un 4 mandarīni. Cik dažādos variantos var izvēleties vienu augli?</string>
+    <string name="a3p0">Grozā ir 8 āboli un 4 mandarīni. Cik dažādos variantos var izvēlēties vienu augli?</string>
     <string name="a3p1">32 veidos</string>
     <string name="a3p2">12 veidos</string>
     <string name="a3p3">8 veidos</string>
     <string name="a3p4">2</string>
-    <string name="a3p5">Lai izvēlētos vienu augli ir jāizmanto saskaitišanas likums=>  8+4=12 veidos var izvēlēties vienu augli.</string>
+    <string name="a3p5">Lai izvēlētos vienu augli ir jāizmanto saskaitīšanas likums=>  8+4=12 veidos var izvēlēties vienu augli.</string>
     <string name="a3p6">1</string>  <!-- JA P6 IR 1 TAD TAS IR SASKAITISANAS LIKUMS -->
 
     <!--CETURTAIS JAUTAJUMS -->
@@ -64,11 +64,11 @@
     <string name="a5p2">35</string>
     <string name="a5p3">12</string>
     <string name="a5p4">2</string>
-    <string name="a5p5">Lai izvēlētos vienu rūtiņu un vienu līniju burtnīcu ir jāizmanto reizinašanas likums 5*7 = 35 veidos var izvēlēties.</string>
+    <string name="a5p5">Lai izvēlētos vienu rūtiņu un vienu līniju burtnīcu ir jāizmanto reizināšanas likums, 5*7 = 35 veidos var izvēlēties.</string>
     <string name="a5p6">2</string>  <!-- JA P6 IR 2 TAD TAS IR REIZINASANAS LIKUMS -->
 
     <!--SESTAIS JAUTAJUMS -->
-    <string name="a6p0">Juris somā ielika 3 bikses,4 kreklus,2 kurpju pārus. Cik dažados veidos Juris var apģērbties, ja viņš grib vilkt bikses, kreklu un kurpes?</string>
+    <string name="a6p0">Juris somā ielika 3 bikses, 4 kreklus, 2 kurpju pārus. Cik dažādos veidos Juris var apģērbties, ja viņš grib vilkt bikses, kreklu un kurpes?</string>
     <string name="a6p1">19</string>
     <string name="a6p2">12</string>
     <string name="a6p3">24</string>
@@ -82,7 +82,7 @@
     <string name="a7p2">N:</string>
     <string name="a7p3">N!</string>
     <string name="a7p4">3</string>
-    <string name="a7p5">Skaitļa n faktoriālu apzimē ar ! </string>
+    <string name="a7p5">Skaitļa n faktoriālu apzīmē ar ! </string>
     <string name="a7p6">3</string>  <!-- JA P6 IR 3 TAD TAS IR SKAITLA FAKTORIĀLS-->
 
 
@@ -96,7 +96,7 @@
     <string name="a8p6">3</string>
 
     <!--DEVITAIS JAUTAJUMS -->
-    <string name="a9p0">No 7 skolēniem tiek izveidota 3 skolēnu komanda. Kas tā pa izlasi?</string>
+    <string name="a9p0">No 7 skolēniem tiek izveidota 3 skolēnu komanda. Kas tā ir par izlasi?</string>
     <string name="a9p1">Reizināšanas izlase</string>
     <string name="a9p2">Nesakārtota izlase</string>
     <string name="a9p3">Sakārtota izlase</string>
@@ -170,7 +170,7 @@
     <string name="a16p6">2</string>
 
     <!--17 JAUTAJUMS -->
-    <string name="a17p0">Noteikt, cik veidos 50 cilveki var nostāties rindā?</string>
+    <string name="a17p0">Noteikt, cik veidos 50 cilvēki var nostāties rindā?</string>
     <string name="a17p1">50!</string>
     <string name="a17p2">50</string>
     <string name="a17p3">10030</string>
@@ -184,7 +184,7 @@
     <string name="a18p2">24</string>
     <string name="a18p3">8!</string>
     <string name="a18p4">3</string>
-    <string name="a18p5">Grāmatas var nolikt 8! veidos</string>
+    <string name="a18p5">Grāmatas var ielikt 8! veidos</string>
     <string name="a18p6">3</string>
 
     <!--19 JAUTAJUMS -->
@@ -215,7 +215,7 @@
     <string name="a21p6">2</string>
 
     <!--22 JAUTAJUMS -->
-    <string name="a22p0">Cik veidos no astoņām dažādām grāmatām var izvēlētes 3 un novietot trīs vietās grāmatu plauktā?</string>
+    <string name="a22p0">Cik veidos no astoņām dažādām grāmatām var izvēlēties 3 un novietot trīs vietās grāmatu plauktā?</string>
     <string name="a22p1">3!</string>
     <string name="a22p2">6</string>
     <string name="a22p3">336</string>
@@ -252,7 +252,7 @@
 
 
     <!--26 JAUTAJUMS -->
-    <string name="a26p0">Cik veidos var plauktā ielikt 4 grāmatas A,B,C,D, ja grāmatām A un B jāatrodas blakus?</string>
+    <string name="a26p0">Cik veidos var plauktā ielikt 4 grāmatas A, B, C, D, ja grāmatām A un B ir jāatrodas blakus?</string>
     <string name="a26p1">256</string>
     <string name="a26p2">10</string>
     <string name="a26p3">16</string>
@@ -293,20 +293,20 @@
     <string name="a30p2">2560</string>
     <string name="a30p3">32</string>
     <string name="a30p4">1</string>
-    <string name="a30p5">Grāmatas var novietot 8!</string>
+    <string name="a30p5">Grāmatas var ievietot 8!</string>
     <string name="a30p6">3</string>
 
     <!--31 JAUTAJUMS -->
-    <string name="a31p0">No 7 sportistiem jaizvēlas 3, kuriem piešķirt zelta, sudraba un bronzas medaļas. Kas tā pa izlasi?</string>
+    <string name="a31p0">No 7 sportistiem jaizvēlas 3, kuriem piešķirt zelta, sudraba un bronzas medaļas. Kas tā ir par izlasi?</string>
     <string name="a31p1">Saskaitīšanas izlase</string>
     <string name="a31p2">Nesakārtota izlase</string>
     <string name="a31p3">Sakārtota izlase</string>
     <string name="a31p4">3</string>
-    <string name="a31p5">Tā ir sakārtota 3 elementu izlase, jo, samainot vietām divus sportistus (kuriem ir piešķirtas medaļas), iegūst citu variantu.</string>
+    <string name="a31p5">Tā ir sakārtota 3 elementu izlase, jo, samainot vietām divus sportistus (kuriem ir piešķirtas medaļas), iegūst citu izlasi.</string>
     <string name="a31p6">4</string>
 
     <!--32 JAUTAJUMS -->
-    <string name="a32p0">No 5 žurnālistiem izvēlas 2 žurnālistus, kuri dosies komandējumā uz Igauniju. Kas tā ir pa izlasi?</string>
+    <string name="a32p0">No 5 žurnālistiem izvēlas 2 žurnālistus, kuri dosies komandējumā uz Igauniju. Kas tā ir par izlasi?</string>
     <string name="a32p1">Nesakārtota izlase</string>
     <string name="a32p2">Reizināšanas izlase</string>
     <string name="a32p3">Sakārtota izlase</string>
@@ -320,7 +320,7 @@
     <string name="a33p2">Sakārtota izlase</string>
     <string name="a33p3">Reizināšanas izlase</string>
     <string name="a33p4">2</string>
-    <string name="a33p5">Tā ir sakārtota izlase, jo samainot skaitlī ciparus vietām, iegūst jau citu skaitli. Piemēram, 29 un 92 ir dažādi skaitļi.</string>
+    <string name="a33p5">Tā ir sakārtota izlase, jo samainot skaitlī ciparus vietām, iegūst citu skaitli. Piemēram, 29 un 92 ir dažādi skaitļi.</string>
     <string name="a33p6">4</string>
 
     <!--34 JAUTAJUMS -->
@@ -399,7 +399,7 @@
     <string name="a41p6">6</string>
 
     <!--42 JAUTAJUMS -->
-    <string name="a42p0">Finālsacensībās piedalās 6 komandas. Cik veidos tās var sadalīt savā starpā bronzas,sudraba un zelta medaļas?</string>
+    <string name="a42p0">Finālsacensībās piedalās 6 komandas. Cik veidos tās var sadalīt savā starpā bronzas, sudraba un zelta medaļas?</string>
     <string name="a42p1">6! veidos</string>
     <string name="a42p2">120 veidos</string>
     <string name="a42p3">60 veidos</string>
@@ -408,7 +408,7 @@
     <string name="a42p6">5</string>
 
     <!--43 JAUTAJUMS -->
-    <string name="a43p0">Akciju sabiedrībai no 10 akcionāriem jāievēl valde - 3 akcionāri: valdes priekšsēdētājs,priekšsēdētāja vietnieks, grāmatvedis. Cik veidos to var izdarīt?</string>
+    <string name="a43p0">Akciju sabiedrībai no 10 akcionāriem jāievēl valde - 3 akcionāri: valdes priekšsēdētājs, priekšsēdētāja vietnieks, grāmatvedis. Cik veidos to var izdarīt?</string>
     <string name="a43p1">720 veidos</string>
     <string name="a43p2">10-3! veidos</string>
     <string name="a43p3">750 veidos</string>
@@ -417,7 +417,7 @@
     <string name="a43p6">5</string>
 
     <!--44 JAUTAJUMS -->
-    <string name="a44p0">Cik dažādus trīsciparu skaitļus var izveidot no cipariem 1; 2; 3, ja cipari skaitlī neatkārtojas?</string>
+    <string name="a44p0">Cik dažādus trīsciparu skaitļus var izveidot no cipariem 1, 2, 3, ja cipari skaitlī neatkārtojas?</string>
     <string name="a44p1">3 veidos</string>
     <string name="a44p2">7 veidos</string>
     <string name="a44p3">6 veidos</string>
@@ -426,7 +426,7 @@
     <string name="a44p6">5</string>
 
     <!--45 JAUTAJUMS -->
-    <string name="a45p0">Novada zinātniskās biedrības konferencē pieteikti 7 referāti. Cik veidos var noteikt referātu noklausīšanās kārtību?</string>
+    <string name="a45p0">Novada zinātniskās biedrības konferencei pieteikti 7 referāti. Cik veidos var noteikt referātu noklausīšanās kārtību?</string>
     <string name="a45p1">5040 veidos</string>
     <string name="a45p2">1040 veidos</string>
     <string name="a45p3">1064 veidos</string>
@@ -444,7 +444,7 @@
     <string name="a46p6">5</string>
 
     <!--47 JAUTAJUMS -->
-    <string name="a47p0">Cik dažādu piecciparu skaitļu var izveidot no cipariem 7; 7; 7; 5; 4?</string>
+    <string name="a47p0">Cik dažādu piecciparu skaitļu var izveidot no cipariem 7, 7, 7, 5, 4?</string>
     <string name="a47p1">5</string>
     <string name="a47p2">20</string>
     <string name="a47p3">30</string>
@@ -453,7 +453,7 @@
     <string name="a47p6">6</string>
 
     <!--48 JAUTAJUMS -->
-    <string name="a48p0">Cik dažādu vārdu var izveidot no vārda ”tautasdziesma” 13 burtiem (vārdam var nebūt nozīmes)?</string>
+    <string name="a48p0">Cik dažādu vārdu var izveidot no vārda ”tautasdziesma” 13 burtiem (vārdam var nebūt nozīme)?</string>
     <string name="a48p1">13!</string>
     <string name="a48p2">13!/6!</string>
     <string name="a48p3">13!/(2!2!3!)</string>
@@ -462,7 +462,7 @@
     <string name="a48p6">6</string>
 
     <!--49 JAUTAJUMS -->
-    <string name="a49p0">Cik veidos 10 skolēnu grupu var sadalīt divās grupās, kur vienā grupā būtu 4 skolnieki, bet otrā grupā 6 skolnieki?</string>
+    <string name="a49p0">Cik veidos 10 skolēnu grupu var sadalīt divās grupās, kur vienā grupā būtu 4 skolēni, bet otrā grupā 6 skolēni?</string>
     <string name="a49p1">24 veidos</string>
     <string name="a49p2">30 veidos</string>
     <string name="a49p3">26 veidos</string>
@@ -471,7 +471,7 @@
     <string name="a49p6">6</string>
 
     <!--50 JAUTAJUMS -->
-    <string name="a50p0">Cik dažādu vārdu var izveidot no vārda ”kabata” visiem burtiem(vārdam var nebūt nozīmes)?</string>
+    <string name="a50p0">Cik dažādu vārdu var izveidot no vārda ”kabata” visiem burtiem (vārdam var nebūt nozīme)?</string>
     <string name="a50p1">120</string>
     <string name="a50p2">6!</string>
     <string name="a50p3">45</string>
