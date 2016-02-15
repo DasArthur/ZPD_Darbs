@@ -77,7 +77,7 @@
     <string name="a6p6">2</string>
 
     <!--SEPTITAIS JAUTAJUMS -->
-    <string name="a7p0">Kā apzīmē skaitļa n faktoriālu?</string>
+    <string name="a7p0">Kā apzīmē skaitļa N faktoriālu?</string>
     <string name="a7p1">n</string>
     <string name="a7p2">N:</string>
     <string name="a7p3">N!</string>
@@ -297,7 +297,7 @@
     <string name="a30p6">3</string>
 
     <!--31 JAUTAJUMS -->
-    <string name="a31p0">No 7 sportistiem jaizvēlas 3, kuriem piešķirt zelta, sudraba un bronzas medaļas. Kas tā ir par izlasi?</string>
+    <string name="a31p0">No 7 sportistiem jaizvēlās 3, kuriem piešķirt zelta, sudraba un bronzas medaļas. Kas tā ir par izlasi?</string>
     <string name="a31p1">Saskaitīšanas izlase</string>
     <string name="a31p2">Nesakārtota izlase</string>
     <string name="a31p3">Sakārtota izlase</string>
