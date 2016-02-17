@@ -244,8 +244,12 @@ public class JautajumuActivity extends AppCompatActivity {
 
                         whatstring = ("a" + i + "p" + c);
 
+/*
+Ja nu nejiet!!!
+jautajumsText.setText(getStringResourceByName(whatstring));
+*/
                         if (c == 0)
-                            jautajumsText.setText(getStringResourceByName(whatstring));
+                            jautajumsText.setText(Html.fromHtml(whatstring)); //TEST
                         else if (c == 1)
                             pirmaPoga.setText(getStringResourceByName(whatstring));
                         else if (c == 2)
