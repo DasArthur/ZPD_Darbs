@@ -343,7 +343,7 @@
     <string name="a35p6">5</string>
 
     <!--36 JAUTAJUMS -->
-    <string name="a36p0">Noteikt n, ja Pₙ₊₁ = 9Pₙ.</string>
+    <string name="a36p0">Noteikt n, ja P&lt;sub&gt;&lt;small&gt;n+1&lt;/small&gt;&lt;/sub&gt;= 9P&lt;sub&gt;&lt;small&gt;n&lt;/small&gt;&lt;/sub&gt;.</string>
     <string name="a36p1">8</string>
     <string name="a36p2">9</string>
     <string name="a36p3">7</string>
@@ -408,12 +408,12 @@
     <string name="a42p6">5</string>
 
     <!--43 JAUTAJUMS -->
-    <string name="a43p0">Akciju sabiedrībai no 10 akcionāriem jāievēl valde - 3 akcionāri: valdes priekšsēdētājs, priekšsēdētāja vietnieks, grāmatvedis. Cik veidos to var izdarīt?</string>
+    <string name="a43p0">Skolai no 10 skolēniem jāievēl valde: prezidents, prezidenta vietnieks, viceprezidents. Cik veidos to var izdarīt?</string>
     <string name="a43p1">720 veidos</string>
     <string name="a43p2">10-3! veidos</string>
     <string name="a43p3">750 veidos</string>
     <string name="a43p4">1</string>
-    <string name="a43p5"> Valdi var veidot 720 veidos.</string>
+    <string name="a43p5">Valdi var veidot 720 veidos.</string>
     <string name="a43p6">5</string>
 
     <!--44 JAUTAJUMS -->
