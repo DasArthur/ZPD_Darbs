@@ -16,6 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -243,9 +244,9 @@ public class JautajumuActivity extends AppCompatActivity {
 
 
                         whatstring = ("a" + i + "p" + c);
-
+                        //jautajumsText.setText(getStringResourceByName(whatstring)); //TEST
                         if (c == 0)
-                            jautajumsText.setText(getStringResourceByName(whatstring));
+                            jautajumsText.setText(Html.fromHtml(getStringResourceByName(whatstring))); //TEST
                         else if (c == 1)
                             pirmaPoga.setText(getStringResourceByName(whatstring));
                         else if (c == 2)
