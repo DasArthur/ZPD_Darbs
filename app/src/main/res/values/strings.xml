@@ -343,7 +343,11 @@
     <string name="a35p6">5</string>
 
     <!--36 JAUTAJUMS -->
+<<<<<<< HEAD
     <string name="a36p0">Noteikt n, ja P&lt;sub&gt;&lt;small&gt;n+1&lt;/small&gt;&lt;/sub&gt;= 9P&lt;sub&gt;&lt;small&gt;n&lt;/small&gt;&lt;/sub&gt;.</string>
+=======
+    <string name="a36p0">Noteikt n, ja Pn+1= 9Pn.</string>
+>>>>>>> origin/master
     <string name="a36p1">8</string>
     <string name="a36p2">9</string>
     <string name="a36p3">7</string>
