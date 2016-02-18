@@ -37,6 +37,7 @@ android:layout_margin="8dp"
                 android:layout_height="wrap_content"
                 android:text="@string/pirma_atsauce"
                 android:textSize="20sp"
+                android:layout_marginBottom="20px"
                 />
 
             <TextView
@@ -46,6 +47,7 @@ android:layout_margin="8dp"
                 android:textSize="20sp"
                 android:layout_below="@+id/atsauce_1"
                 android:text="@string/otra_atsauce"
+                android:layout_marginBottom="20px"
                 />
             <TextView
                 android:id="@+id/atsauce_3"
@@ -54,6 +56,8 @@ android:layout_margin="8dp"
                 android:text="@string/tresa_atsauce"
                 android:textSize="20sp"
                 android:layout_below="@+id/atsauce_2"
+                android:layout_marginBottom="20px"
+
                 />
 
             <TextView
@@ -63,6 +67,8 @@ android:layout_margin="8dp"
                 android:text="@string/ceturta_atsauce"
                 android:textSize="20sp"
                 android:layout_below="@+id/atsauce_3"
+                android:layout_marginBottom="20px"
+
                 />
 
         </RelativeLayout>
