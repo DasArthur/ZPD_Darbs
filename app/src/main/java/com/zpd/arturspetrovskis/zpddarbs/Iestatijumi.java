@@ -23,6 +23,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class Iestatijumi extends AppCompatActivity {
 
@@ -31,6 +34,9 @@ public class Iestatijumi extends AppCompatActivity {
     private DrawerLayout dlDrawer;
     private ActionBarDrawerToggle drawerToggle;
     private NavigationView nvDrawer;
+    private TextView pirmaAtsauce;
+    private TextView otraAtsauce;
+    private TextView tresaAtsauce;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +61,8 @@ public class Iestatijumi extends AppCompatActivity {
 
 
         ab.setDisplayHomeAsUpEnabled(true);
+
+
 
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

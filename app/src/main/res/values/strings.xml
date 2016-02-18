@@ -19,6 +19,10 @@
     <string name="tema_3">Skaitļa faktoriāls</string>
     <string name="tema_4">Visas tēmas</string>
     <string name="title_activity_rezultats">Rezultāts</string>
+    <string name="pirma_atsauce">Āboltiņa, B., Kriķis, D., Šteiners, K. <i>Matemātika 11.klasei.</i> Rīga: Zvaigzne ABC, 2012. 126.-161.lpp. ISBN 978-9934-0-2256-2</string>
+    <string name="otra_atsauce">Slokenberga, E., France, I., France, I. <i>Matemātika 11.klasei.</i> Lielvārde: Lielvārds, 2010. 100.-127.lpp. ISBN 978-9984-11-289-3</string>
+    <string name="tresa_atsauce">Uzdevumi.lv <i>Kombinatorikas elementi 1</i> [tiešsaiste]. [Skatīts 21.02.2015]. Pieejams:http://www.uzdevumi.lv/p/matematika/11-klase/kombinatorikas-elementi-1-2162</string>
+    <string name="ceturta_atsauce">Vasiļevskis, G. <i>Mācību līdzeklis vidusskolām kombinatorikā</i> [tiešsaiste]. [Skatīts 01.02.2015]. Pieejams: http://nms.lu.lv/wp-content/uploads/2014/06/kombinat_9-12kl.pdf</string>
 
     <!--JAUTAJUMI UN ATBILDES -->
 
@@ -28,7 +32,7 @@
     <string name="a1p2">Saskaitīšanas likums</string>
     <string name="a1p3">Dalīšanas likums</string>
     <string name="a1p4">2</string>
-    <string name="a1p5">Ja nepieciešams izvēlēties vienu elementu no pirmās vai otrās grupas, tad to var izdarīt pēc saskaitīšanas likuma</string>
+    <string name="a1p5">Ja nepieciešams izvēlēties vienu elementu no pirmās vai otrās grupas, tad to var izdarīt, izmantojot saskaitīšanas likumu</string>
     <string name="a1p6">0</string>   <!-- JA P6 IR 0 TAD TA IR TEORIJA-->
 
     <!--OTRAIS JAUTAJUMS -->
@@ -46,7 +50,7 @@
     <string name="a3p2">12 veidos</string>
     <string name="a3p3">8 veidos</string>
     <string name="a3p4">2</string>
-    <string name="a3p5">Lai izvēlētos vienu augli ir jāizmanto saskaitīšanas likums=>  8+4=12 veidos var izvēlēties vienu augli.</string>
+    <string name="a3p5">Lai izvēlētos vienu augli ir jāizmanto saskaitīšanas likums =>  8+4=12 veidos var izvēlēties vienu augli.</string>
     <string name="a3p6">1</string>  <!-- JA P6 IR 1 TAD TAS IR SASKAITISANAS LIKUMS -->
 
     <!--CETURTAIS JAUTAJUMS -->
@@ -55,7 +59,7 @@
     <string name="a4p2">12 veidos</string>
     <string name="a4p3">24 veidos</string>
     <string name="a4p4">3</string>
-    <string name="a4p5">Banānus var izvēlēties tikai 24 reizes, jo somā atrodas tikai 24 banāni.</string>
+    <string name="a4p5">Banānus var izvēlēties tikai 24 reizes, jo somā atrodas 24 banāni.</string>
     <string name="a4p6">0</string>
 
     <!--PIEKTAIS JAUTAJUMS -->
@@ -77,12 +81,12 @@
     <string name="a6p6">2</string>
 
     <!--SEPTITAIS JAUTAJUMS -->
-    <string name="a7p0">Kā apzīmē skaitļa n faktoriālu?</string>
-    <string name="a7p1">n</string>
+    <string name="a7p0">Kā apzīmē skaitļa N faktoriālu?</string>
+    <string name="a7p1">N</string>
     <string name="a7p2">N:</string>
     <string name="a7p3">N!</string>
     <string name="a7p4">3</string>
-    <string name="a7p5">Skaitļa n faktoriālu apzīmē ar ! </string>
+    <string name="a7p5">Skaitļa N faktoriālu apzīmē ar ! </string>
     <string name="a7p6">3</string>  <!-- JA P6 IR 3 TAD TAS IR SKAITLA FAKTORIĀLS-->
 
 
@@ -139,7 +143,7 @@
     <string name="a13p2">64</string>
     <string name="a13p3">9</string>
     <string name="a13p4">2</string>
-    <string name="a13p5">4*4*4=64</string>
+    <string name="a13p5">4*4*4=64 skaitļus</string>
     <string name="a13p6">2</string>
 
     <!--CETRPADSMITAIS JAUTAJUMS -->
@@ -148,7 +152,7 @@
     <string name="a14p2">6</string>
     <string name="a14p3">12</string>
     <string name="a14p4">2</string>
-    <string name="a14p5">3*2*1=6 veidos</string>
+    <string name="a14p5">3*2*1=6 kodus</string>
     <string name="a14p6">2</string>
 
     <!--PIEDSMITAIS JAUTAJUMS -->
@@ -175,16 +179,16 @@
     <string name="a17p2">50</string>
     <string name="a17p3">10030</string>
     <string name="a17p4">1</string>
-    <string name="a17p5">Cilvēki var nostāties 50! veidos</string>
+    <string name="a17p5">Cilvēki var nostāties rindā 50! veidos</string>
     <string name="a17p6">3</string>
 
     <!--18 JAUTAJUMS -->
-    <string name="a18p0">Cik veidos var 8 grāmatas ielikt plauktā?</string>
+    <string name="a18p0">Cik veidos 8 grāmatas var ielikt plauktā?</string>
     <string name="a18p1">8</string>
     <string name="a18p2">24</string>
     <string name="a18p3">8!</string>
     <string name="a18p4">3</string>
-    <string name="a18p5">Grāmatas var ielikt 8! veidos</string>
+    <string name="a18p5">Grāmatas var ielikt plauktā 8! veidos</string>
     <string name="a18p6">3</string>
 
     <!--19 JAUTAJUMS -->
@@ -206,12 +210,12 @@
     <string name="a20p6">3</string>
 
     <!--21 JAUTAJUMS -->
-    <string name="a21p0">Uzņēmuma jaunajā valdē no pieciem locekļiem jāizvēlas priekšsēdētājs un tā vietnieks. Cik veidos to var izdarīt?</string>
+    <string name="a21p0">Uzņēmuma valdē no 5 locekļiem jāizvēlas priekšsēdētājs un viņa vietnieks. Cik veidos to var izdarīt?</string>
     <string name="a21p1">20</string>
     <string name="a21p2">5!</string>
     <string name="a21p3">120</string>
     <string name="a21p4">1</string>
-    <string name="a21p5">5*4=20 veidos var izvēlēties priekšsēdētāju un vietnieku</string>
+    <string name="a21p5">5*4=20 veidos var izvēlēties priekšsēdētāju un viņa vietnieku</string>
     <string name="a21p6">2</string>
 
     <!--22 JAUTAJUMS -->
@@ -242,7 +246,7 @@
     <string name="a24p6">2</string>
 
     <!--25 JAUTAJUMS -->
-    <string name="a25p0">Cik dažādu automašīnas numuru eksistē, kuri sastāv no pieciem dažādiem cipariem, ja pieļauj iespēju, ka pirmais cipars ir viens?</string>
+    <string name="a25p0">Cik dažādu automašīnas numuru eksistē, kuri sastāv no pieciem dažādiem cipariem, ja pieļauj iespēju, ka pirmais cipars ir 1?</string>
     <string name="a25p1">1050</string>
     <string name="a25p2">625</string>
     <string name="a25p3">60</string>
@@ -297,7 +301,7 @@
     <string name="a30p6">3</string>
 
     <!--31 JAUTAJUMS -->
-    <string name="a31p0">No 7 sportistiem jaizvēlas 3, kuriem piešķirt zelta, sudraba un bronzas medaļas. Kas tā ir par izlasi?</string>
+    <string name="a31p0">No 7 sportistiem jāizvēlas 3, kuriem piešķirt zelta, sudraba un bronzas medaļas. Kas tā ir par izlasi?</string>
     <string name="a31p1">Saskaitīšanas izlase</string>
     <string name="a31p2">Nesakārtota izlase</string>
     <string name="a31p3">Sakārtota izlase</string>
@@ -330,7 +334,7 @@
     <string name="a34p2">2620</string>
     <string name="a34p3">20!</string>
     <string name="a34p4">2</string>
-    <string name="a34p5">Ja vispirms stāv meitenes un tad seko zēni, ir 8!*12!</string>
+    <string name="a34p5">Ja vispirms stāv meitenes un tad stāv zēni, ir 8!*12!</string>
     <string name="a34p6">5</string> <!-- JA P6 IR 5 TAD TĀ IR PERMUTĀCIJA -->
 
     <!--35 JAUTAJUMS -->
@@ -408,7 +412,7 @@
     <string name="a42p6">5</string>
 
     <!--43 JAUTAJUMS -->
-    <string name="a43p0">Skolai no 10 skolēniem jāievēl valde: prezidents, prezidenta vietnieks, viceprezidents. Cik veidos to var izdarīt?</string>
+    <string name="a43p0">Skolas parlamentam no 10 skolēniem jāievēl valde: prezidents un divi vietnieki. Cik veidos to var izdarīt?</string>
     <string name="a43p1">720 veidos</string>
     <string name="a43p2">10-3! veidos</string>
     <string name="a43p3">750 veidos</string>
@@ -418,11 +422,11 @@
 
     <!--44 JAUTAJUMS -->
     <string name="a44p0">Cik dažādus trīsciparu skaitļus var izveidot no cipariem 1, 2, 3, ja cipari skaitlī neatkārtojas?</string>
-    <string name="a44p1">3 veidos</string>
-    <string name="a44p2">7 veidos</string>
-    <string name="a44p3">6 veidos</string>
+    <string name="a44p1">3 skaitļus</string>
+    <string name="a44p2">7 skaitļus</string>
+    <string name="a44p3">6 skaitļus</string>
     <string name="a44p4">3</string>
-    <string name="a44p5">A³₄=3*2*1=3!=6 veidos</string>
+    <string name="a44p5">A³₄=3*2*1=3!=6 skaitļus</string>
     <string name="a44p6">5</string>
 
     <!--45 JAUTAJUMS -->
@@ -437,10 +441,10 @@
     <!--46 JAUTAJUMS -->
     <string name="a46p0">Rindā jānostāda 30 skolēni. Cik dažādu rindu iespējams izveidot?</string>
     <string name="a46p1">30!</string>
-    <string name="a46p2">20142 veidos</string>
-    <string name="a46p3">5610 veidos</string>
+    <string name="a46p2">20142 rindas</string>
+    <string name="a46p3">5610 rindas</string>
     <string name="a46p4">1</string>
-    <string name="a46p5">P₃₀=30! veidos</string>
+    <string name="a46p5">P₃₀=30! rindas</string>
     <string name="a46p6">5</string>
 
     <!--47 JAUTAJUMS -->

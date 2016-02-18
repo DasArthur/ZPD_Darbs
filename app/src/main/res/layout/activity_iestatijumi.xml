@@ -22,32 +22,50 @@
 
 
         <!-- The main content view -->
-        <FrameLayout
+        <RelativeLayout
             android:id="@+id/flContent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 android:layout_margin="8dp"
+
             >
 
 
             <TextView
+                android:id="@+id/atsauce_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PIRMA GRAMATA"
+                android:text="@string/pirma_atsauce"
                 android:textSize="20sp"
-                android:id="@+id/textView3"
-                android:layout_gravity="left|top" />
+                />
 
             <TextView
+                android:id="@+id/atsauce_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="OTRA GRAMATA"
                 android:textSize="20sp"
-                android:id="@+id/textView4"
-                android:layout_gravity="left|top"
-                android:layout_marginTop="30dp"
+                android:layout_below="@+id/atsauce_1"
+                android:text="@string/otra_atsauce"
                 />
-        </FrameLayout>
+            <TextView
+                android:id="@+id/atsauce_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tresa_atsauce"
+                android:textSize="20sp"
+                android:layout_below="@+id/atsauce_2"
+                />
+
+            <TextView
+                android:id="@+id/atsauce_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ceturta_atsauce"
+                android:textSize="20sp"
+                android:layout_below="@+id/atsauce_3"
+                />
+
+        </RelativeLayout>
 
 
 

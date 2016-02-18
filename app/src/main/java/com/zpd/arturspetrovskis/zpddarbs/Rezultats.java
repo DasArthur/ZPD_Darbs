@@ -25,6 +25,7 @@ import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -508,7 +509,7 @@ finish();
 
                     JautajumuCardView jautajumuCardView = (JautajumuCardView) items.get(position);
                     vh2.title().setText(jautajumuCardView.title);
-                    vh2.jautajumatext().setText(jautajumuCardView.jautajumstext);
+                    vh2.jautajumatext().setText(Html.fromHtml(jautajumuCardView.jautajumstext));
                     vh2.pareizaatbildespoga().setText(jautajumuCardView.pareizaAtbilde);
 
                     break;
