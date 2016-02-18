@@ -438,7 +438,7 @@ public class JautajumuActivity extends AppCompatActivity {
             for (int c = 0; c < 5; c++) {
                 String whatstring = ("a" + RandomJautajums + "p" + c);
                 if (c == 0)
-                    jautajumsText.setText(getStringResourceByName(whatstring));
+                    jautajumsText.setText(Html.fromHtml(getStringResourceByName(whatstring)));
                 else if (c == 1)
                     pirmaPoga.setText(getStringResourceByName(whatstring));
                 else if (c == 2)
