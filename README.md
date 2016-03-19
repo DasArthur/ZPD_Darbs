@@ -1,2 +1,2 @@
-# ZPDDarbs
-Lietotne prieks ZPD darba 
+#Zinātniski pētnieciskais darbs informātikā
+Lietotne kods
