@@ -1,1 +1,2 @@
-Lietotnes kods prieks zinātniski pētnieciska darba informātikā.
+#ZPD DARBS
+Lietotnes kods
