@@ -1,2 +1,1 @@
-#Zinātniski pētnieciskais darbs informātikā
-Lietotne kods
+Lietotnes kods prieks zinātniski pētnieciskais darba informātikā.
