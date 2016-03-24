@@ -52,7 +52,7 @@ public class Iestatijumi extends AppCompatActivity {
 
         // Find our drawer view
         nvDrawer = (NavigationView) findViewById(R.id.nvView);
-        // Setup drawer view
+        /// Setup drawer view
         setupDrawerContent(nvDrawer);
 
 
