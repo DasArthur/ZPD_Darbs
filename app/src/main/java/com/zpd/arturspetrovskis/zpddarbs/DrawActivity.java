@@ -73,7 +73,7 @@ public class DrawActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_draw);
 
-      //  toolbar = (Toolbar) findViewById(R.id.toolbar);
+      ///  toolbar = (Toolbar) findViewById(R.id.toolbar);
       //  setSupportActionBar(toolbar);
 
         // Find our drawer view
