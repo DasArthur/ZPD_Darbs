@@ -28,7 +28,7 @@ import android.widget.FrameLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    ///////////STRING KURS SATUR KO LIETOTAJS IR IZVELEJIES////////////////////
+    ////////////STRING KURS SATUR KO LIETOTAJS IR IZVELEJIES////////////////////
     public final static String EXTRA_MESSAGE = "com.zpd.arturspetrovskis.zpddarbs.TYPE";
 
     private DrawerLayout mDrawer;
