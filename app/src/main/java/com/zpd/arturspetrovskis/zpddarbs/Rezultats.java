@@ -51,7 +51,7 @@ import java.util.List;
 
 
 public class Rezultats extends AppCompatActivity {
-
+//
     public Bundle b;
 
     public RecyclerView  rv;
