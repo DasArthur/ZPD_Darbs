@@ -35,7 +35,7 @@ public class JautajumuActivity extends AppCompatActivity {
     public static String EXTRA_MESSAGE = "com.zpd.arturspetrovskis.zpddarbs.TYPE";
 
     public   Random r = new Random();
-    ///////////////////DISABLE BUTTON//////////////////////////////////////////
+   ////////////////////DISABLE BUTTON//////////////////////////////////////////
     boolean isVisible = false;
     ////////////////////KRASAS////////////////////////////////////////////
     ColorStateList csl;
